@@ -1,0 +1,660 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+
+<title>Certificates | Eng. Abubakar Farooq</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+
+<link rel="stylesheet"
+href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Inter:wght@300;400;500&display=swap">
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+<style>
+
+:root{
+
+--dark:#0a192f;
+--accent:#64ffda;
+
+}
+
+*{
+
+margin:0;
+padding:0;
+box-sizing:border-box;
+
+}
+
+body{
+
+font-family:Inter,sans-serif;
+
+background:
+linear-gradient(
+180deg,
+#081322,
+#0f223e
+);
+
+color:white;
+
+}
+
+header{
+
+padding:40px 10%;
+
+display:flex;
+
+justify-content:space-between;
+
+align-items:center;
+
+}
+
+.logo{
+
+font-family:Poppins;
+
+font-size:28px;
+
+font-weight:800;
+
+color:var(--accent);
+
+}
+
+.back{
+
+color:white;
+
+text-decoration:none;
+
+border:1px solid var(--accent);
+
+padding:12px 22px;
+
+}
+
+.hero{
+
+text-align:center;
+
+padding:40px;
+
+}
+
+.hero h1{
+
+font-size:52px;
+
+margin-bottom:20px;
+
+}
+
+.hero p{
+
+opacity:.85;
+
+}
+
+.wrapper{
+
+width:min(
+1300px,
+92%
+);
+
+margin:auto;
+
+padding-bottom:100px;
+
+}
+
+.cert{
+
+display:grid;
+
+grid-template-columns:
+1fr 1fr;
+
+gap:50px;
+
+align-items:center;
+
+padding:60px;
+
+margin-top:40px;
+
+border-radius:30px;
+
+background:
+
+rgba(
+255,
+255,
+255,
+.06
+);
+
+backdrop-filter:
+blur(
+30px
+);
+
+}
+
+.cert:nth-child(even){
+
+direction:rtl;
+
+}
+
+.cert:nth-child(even)>*{
+
+direction:ltr;
+
+}
+
+.image{
+
+height:420px;
+
+border-radius:20px;
+
+overflow:hidden;
+
+background:
+
+rgba(
+255,
+255,
+255,
+.08
+);
+
+}
+
+.image img{
+
+width:100%;
+
+height:100%;
+
+object-fit:cover;
+
+}
+
+.info h2{
+
+font-family:Poppins;
+
+font-size:34px;
+
+margin-bottom:12px;
+
+}
+
+.meta{
+
+display:flex;
+
+flex-wrap:wrap;
+
+gap:12px;
+
+margin-bottom:18px;
+
+}
+
+.meta span{
+
+padding:10px 16px;
+
+border-radius:999px;
+
+background:
+rgba(
+100,
+255,
+218,
+.14
+);
+
+color:var(--accent);
+
+}
+
+.info p{
+
+line-height:1.9;
+
+opacity:.92;
+
+}
+
+.badge{
+
+margin-top:25px;
+
+display:inline-flex;
+
+align-items:center;
+
+gap:10px;
+
+padding:14px 20px;
+
+border:
+
+1px solid
+var(--accent);
+
+color:
+var(--accent);
+
+}
+
+footer{
+
+padding:40px;
+
+text-align:center;
+
+}
+
+footer a{
+
+color:var(--accent);
+
+text-decoration:none;
+
+}
+
+@media(max-width:900px){
+
+.cert{
+
+grid-template-columns:1fr;
+
+padding:30px;
+
+}
+
+.hero h1{
+
+font-size:38px;
+
+}
+
+.image{
+
+height:260px;
+
+}
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+
+<div class="logo">
+
+Abubakar Farooq
+
+</div>
+
+<a
+class="back"
+href="index.html">
+
+← Back To Portfolio
+
+</a>
+
+</header>
+
+<section class="hero">
+
+<h1>
+
+My Certifications
+
+</h1>
+
+<p>
+
+Professional learning journey across Data Analytics,
+Data Science, Power BI,
+SQL and IT Support.
+
+</p>
+
+</section>
+
+<div class="wrapper">
+
+<!-- 1 -->
+
+<div class="cert">
+
+<div class="image">
+
+<img
+src="./certificates/ilt_data_analytics.jpg"
+alt="ILT">
+
+</div>
+
+<div class="info">
+
+<h2>
+
+Data Analytics
+
+</h2>
+
+<div class="meta">
+
+<span>
+
+Institute of Leather Technology
+
+</span>
+
+<span>
+
+Completed: 2026
+
+</span>
+
+</div>
+
+<p>
+
+Learned core data analysis techniques including
+data cleaning,
+reporting,
+analytics thinking,
+visualization,
+and practical business analysis workflows using Excel and Python.
+
+</p>
+
+<div class="badge">
+
+<i class="fa-solid fa-award"></i>
+
+Professional Certification
+
+</div>
+
+</div>
+
+</div>
+
+<!-- 2 -->
+
+<div class="cert">
+
+<div class="image">
+
+<img
+src="./certificates/ibm_data_analytics.jpg"
+alt="IBM">
+
+</div>
+
+<div class="info">
+
+<h2>
+
+IBM Data Analyst
+
+</h2>
+
+<div class="meta">
+
+<span>
+
+IBM + Coursera
+
+</span>
+
+<span>
+
+Completed: 2026
+
+</span>
+
+</div>
+
+<p>
+
+Worked with Excel,
+SQL,
+Python,
+Jupyter Notebook,
+dashboards,
+data visualization and real-world datasets.
+
+</p>
+
+<div class="badge">
+
+<i class="fa-solid fa-chart-line"></i>
+
+Analytics Professional
+
+</div>
+
+</div>
+
+</div>
+
+<!-- 3 -->
+
+<div class="cert">
+
+<div class="image">
+
+<img
+src="./certificates/ibm_data_science.jpg"
+alt="IBM DS">
+
+</div>
+
+<div class="info">
+
+<h2>
+
+IBM Data Science
+
+</h2>
+
+<div class="meta">
+
+<span>
+
+IBM
+
+</span>
+
+<span>
+
+Completed: 2026
+
+</span>
+
+</div>
+
+<p>
+
+Covered Machine Learning,
+Python,
+Data Science methodology,
+SQL,
+Visualization,
+Capstone Projects,
+and Generative AI.
+
+</p>
+
+<div class="badge">
+
+<i class="fa-solid fa-brain"></i>
+
+Data Science Track
+
+</div>
+
+</div>
+
+</div>
+
+<!-- 4 -->
+
+<div class="cert">
+
+<div class="image">
+
+<img
+src="./certificates/powerBI.jpg"
+alt="Power BI">
+
+</div>
+
+<div class="info">
+
+<h2>
+
+Data Modeling in Power BI
+
+</h2>
+
+<div class="meta">
+
+<span>
+
+Microsoft
+
+</span>
+
+<span>
+
+Completed: 2026
+
+</span>
+
+</div>
+
+<p>
+
+Built advanced Power BI reports,
+data modeling,
+relationships,
+interactive dashboards
+and DAX logic.
+
+</p>
+
+<div class="badge">
+
+<i class="fa-solid fa-chart-column"></i>
+
+Business Intelligence
+
+</div>
+
+</div>
+
+</div>
+
+<!-- 5 -->
+
+<div class="cert">
+
+<div class="image">
+
+<img
+src="./certificates/ccst.jpg"
+alt="CCST">
+
+</div>
+
+<div class="info">
+
+<h2>
+
+Cisco CCST
+
+</h2>
+
+<div class="meta">
+
+<span>
+
+Cisco
+
+</span>
+
+<span>
+
+Completed: 2025
+
+</span>
+
+</div>
+
+<p>
+
+Networking fundamentals,
+hardware support,
+IT troubleshooting
+and technical support practices.
+
+</p>
+
+<div class="badge">
+
+<i class="fa-solid fa-network-wired"></i>
+
+Support Technician
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+<footer>
+
+© 2026 Eng. Abubakar Farooq
+
+<br><br>
+
+<a href="index.html">
+
+Return Home
+
+</a>
+
+</footer>
+
+</body>
+</html>
